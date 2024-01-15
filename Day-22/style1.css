@@ -1,0 +1,19 @@
+#countriesList{
+	display:grid;
+	grid-template-columns:repeat(6,1fr);
+	grid-template-rows:repeat(17, 1fr);
+	margin-left:200px;
+	margin-right:200px;
+	gap:6px;
+	
+	
+}
+
+li{
+	border:1px solid #0000008a;;
+	list-style:none;
+	width:82px;
+	text-align:center;
+	padding:20px 30px;
+	
+}
